@@ -1,0 +1,23 @@
+{
+  "name": "charts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@vueuse/motion": "^3.0.3",
+    "echarts": "^6.0.0",
+    "normalize.css": "^8.0.1",
+    "nuxt": "^4.2.1",
+    "nuxt-echarts": "^1.0.1",
+    "sass": "^1.94.0",
+    "vue": "^3.5.24",
+    "vue-echarts": "^8.0.1",
+    "vue-router": "^4.6.3"
+  }
+}
